@@ -24,10 +24,10 @@ class CalculatorController extends Controller
     {
         $response = file_get_contents('https://tw.rter.info/capi.php');
         $response = json_decode($response,true);
-        foreach ($response as $key=>$value){
-            if (strlen($key)==6){echo substr($string = $key, $offset = 3)."\n";}
+        // foreach ($response as $key=>$value){
+        //     if (strlen($key)==6){echo substr($string = $key, $offset = 3)." ";}
             
-        };
+        // };
         $currency = $request["currency"];
 
         // $USD2Other_rate = $response["USD".$currency]["Exrate"];
