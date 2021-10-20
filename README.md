@@ -1,7 +1,7 @@
 本系統根據輸入的幣別, 金額與折扣, 計算”台幣結果”
 本系統的資料來源：” 全 球 即 時 匯 率 API” ( 網 址: https://tw.rter.info/capi.php), 取 得 即 時 相 對 應 匯 率
 
-demo網址
+demo網址:https://myurl-chadwick.herokuapp.com/
 
 開發環境:
 macos10.15(x86_64)
